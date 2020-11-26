@@ -1,0 +1,844 @@
+<!--
+  Template Name   : Mega - Mega | HTML5 Hosting Template
+  Mega Version    : 1.0.0
+  Author          : Nifty Theme - Osama Bakri
+  ThemeForest     : https://themeforest.net/user/niftytheme
+  Contact         : niftytheme@gmail.com
+  Created         : 10 March 2020
+  License         : You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mega - Beautiful HTML5 Hosting Template">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Nifty Theme | Osama Bakri">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="theme-color" content="#0060fe">
+  <meta name="keywords" content="Mega, multipurpose, hosting, domain">
+  <!-- TITLE -->
+  <title>Mega</title>
+
+  <!-- STYLESHEET -->
+  <!-- <link rel="stylesheet" href="./assets/css/vendors/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/vendors/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/theme/style.css">
+  <link rel="stylesheet" href="./assets/css/theme/components.css">
+  <link rel="stylesheet" href="./assets/css/theme/index.css"> -->
+
+  <!-- MIN STYLESHEET -->
+  <link rel="stylesheet" href="./assets/css/theme/theme-vendors.min.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div class="loading-screen" id="loading_screen">
+    <img data-src="./assets/images/icons/loading.svg" class="img-fluid lazy" alt="image">
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="th-navbar">
+    <div class="container-fluid">
+      <!-- navbar content -->
+      <div class="nav-content d-flex align-items-center justify-content-between">
+
+        <!-- left side -->
+        <div class="l-s d-flex align-items-center">
+
+          <!-- brand -->
+          <a href="#" class="d-inline-flex mr-5"><img data-src="./assets/images/logos/01.svg" class="img-fluid lazy" alt="Mega"></a>
+
+          <!-- navbar links -->
+          <ul class="navbar-links list-unstyled d-xl-flex align-items-center mb-0">
+
+            <!-- navbar list item -->
+            <li class="navbar-list-item position-relative">
+              <!-- item name -->
+              <a href="#" class="item-name position-relative">Home</a>
+            </li>
+
+            <!-- navbar list item / has dropdown menu -->
+            <li class="navbar-list-item has-dropdown-menu position-relative">
+              <!-- item name -->
+              <span class="item-name position-relative">Pages</span>
+              <!-- dropdown menu -->
+              <ul class="navbar-dropdown-menu list-unstyled mb-0">
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Shared Hosting<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Cloud Hosting<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">VPS Hosting<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Dedicated Hosting<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- navbar list item / has dropdown menu -->
+            <li class="navbar-list-item has-dropdown-menu position-relative">
+              <!-- item name -->
+              <span class="item-name position-relative">Company</span>
+              <!-- dropdown menu -->
+              <ul class="navbar-dropdown-menu list-unstyled mb-0">
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Terms & Conditions<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Privacy<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#" class="dropdown-menu-link d-flex align-items-center justify-content-between">Awards<i class="fa fa-long-arrow-right ml-3"></i></a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- navbar list item -->
+            <li class="navbar-list-item position-relative">
+              <!-- item name -->
+              <a href="#" class="item-name position-relative">About Us</a>
+            </li>
+
+            <!-- navbar list item -->
+            <li class="navbar-list-item position-relative">
+              <!-- item name -->
+              <a href="#" class="item-name position-relative">Support</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- right side -->
+        <div class="r-s position-relative">
+
+          <!-- xl screen -->
+          <div class="d-xl-flex d-none">
+            <!-- login form button -->
+            <button type="button" id="login_form_button" class="th-btn-fill-primary th-btn-sm text-uppercase shadow-none mr-2">Login</button>
+            <!-- signup page link -->
+            <a href="#" class="th-btn-fill-warning th-btn-sm text-uppercase shadow-none">Sign Up</a>
+            <!-- login form -->
+            <form action="#" class="login-form" id="header_login_form">
+              <!-- avatar -->
+              <div class="avatar text-center mb-4">
+                <img data-src="./assets/images/media/020.svg" class="img-fluid lazy" alt="image">
+              </div>
+              <!-- title -->
+              <div class="form-title text-center mb-4">
+                <h4 class="mb-1">Members Sign In</h4>
+                <p class="mb-0">Not a member yet? <a href="#">Sign up now</a></p>
+              </div>
+              <!-- input group -->
+              <div class="i-g">
+                <label for="input-1">Username / Email</label>
+                <input type="text" id="input-1" autocomplete="off" required>
+              </div>
+              <!-- input group -->
+              <div class="i-g">
+                <label for="input-2">Password</label>
+                <input type="password" id="input-2" autocomplete="off" required>
+              </div>
+              <!-- input group -->
+              <div class="i-g text-center">
+                <button type="submit" class="th-btn-fill-primary text-uppercase mt-2 w-100 shadow-none">login</button>
+                <a href="#" class="hash-link d-inline-flex mt-2">Forget password</a>
+              </div>
+            </form>
+          </div>
+
+          <!-- lg screen -->
+          <div class="d-xl-none d-flex">
+            <!-- navbar toggler -->
+            <button type="button" class="navbar-toggler p-0" id="th_navbar_toggler">
+              <img data-src="./assets/images/icons/menu.svg" class="menu-icon img-fluid lazy" alt="image">
+              <img data-src="./assets/images/icons/close.svg" class="close-icon img-fluid lazy" alt="image">
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="position-relative">
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-lg-6 text-lg-left text-center">
+          <h1 class="text-uppercase">get <span class="spec-text">ssd <br class="d-lg-inline-block d-none">windows vps</span> hosting offer</h1>
+          <h5 class="mb-3">Starting from only <span class="spec-text">$9.99</span> per month</h5>
+          <p class="mb-0">All virtual machines run on 100% SSD derives</p>
+          <!-- buttons -->
+          <div class="buttons mt-xl d-sm-flex align-items-center justify-content-lg-start justify-content-center">
+            <a href="#" class="th-btn-fill-light text-uppercase mr-sm-2 mb-sm-0 mb-2">Get this offer</a>
+            <a href="#" class="th-btn-outline-light text-uppercase">See all plans<i class="fa fa-long-arrow-right ml-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- circles -->
+    <div class="circles d-lg-block d-none">
+      <!-- circle 1 -->
+      <div class="cir cir-1"></div>
+      <!-- circle 2 -->
+      <div class="cir cir-2"></div>
+      <!-- circle 3 -->
+      <div class="cir cir-3"></div>
+      <!-- circle 4 -->
+      <div class="cir cir-4"></div>
+      <!-- data 1 -->
+      <div class="data data-1 reverse">
+        <span class="info">99.9%<br>Uptime SLA</span>
+      </div>
+      <!-- data 2 -->
+      <div class="data data-2">
+        <span class="info">100% SSD<br>Storage</span>
+      </div>
+      <!-- data 3 -->
+      <div class="data data-3">
+        <span class="info">Dedicated<br>resources</span>
+      </div>
+      <!-- data 4 -->
+      <div class="data data-4">
+        <span class="info">Unlimited<br>Domains</span>
+      </div>
+      <!-- data 5 -->
+      <div class="data data-5">
+        <span class="info">VPS SolidCP</span>
+      </div>
+      <!-- data 6 -->
+      <div class="data data-6">
+        <span class="info">Windows<br>2016/2012R2</span>
+      </div>
+      <!-- data 7 -->
+      <div class="data data-7">
+        <span class="info">Monitoring & alerts</span>
+      </div>
+      <!-- data 8 -->
+      <div class="data data-8 reverse">
+        <span class="info">24/7/365<br>world-class support</span>
+      </div>
+      <!-- data 9 -->
+      <div class="data data-9">
+        <span class="info">DNS management</span>
+      </div>
+      <!-- data 10 -->
+      <div class="data data-10 reverse">
+        <span class="info">Worldwide<br>availability</span>
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- SECTION I -->
+  <div class="se-i py-80 bg-2">
+    <div class="container">
+
+      <!-- title -->
+      <div class="title text-center">
+        <h6>our service</h6>
+        <h2>Explore our service price</h2>
+        <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+      </div>
+
+      <!-- space -->
+      <div class="space-md"></div>
+
+      <!-- content -->
+      <div class="content plans-table-1">
+        <!-- row -->
+        <div class="row m-lg-0">
+          <!-- col -->
+          <div class="col-lg-3 col-md-6 order-lg-1 order-2 p-lg-0 mb-lg-0 mb-4">
+            <!-- item -->
+            <div class="item text-lg-left text-center">
+              <!-- item head -->
+              <div class="item-head">
+
+                <!-- name -->
+                <h5 class="name mb-2">VPS Hosting</h5>
+
+                <!-- subtitle -->
+                <p class="sub mb-4">Scalable and simple object</p>
+
+                <!-- price -->
+                <div class="price">
+                  <div class="d-flex align-items-start justify-content-lg-start justify-content-center">
+                    <!-- currency -->
+                    <div class="currency mr-1 align-self-start">$</div>
+                    <!-- count -->
+                    <div class="count">24.99</div>
+                    <!-- commnet -->
+                    <div class="comment ml-1 align-self-end">/monthly</div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- item body -->
+              <div class="item-body">
+                <ul class="list-unstyled mb-0">
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                </ul>
+              </div>
+              <!-- item footer -->
+              <div class="item-footer">
+                <a href="#" class="th-btn-fill-primary text-uppercase w-100">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!-- col -->
+          <div class="col-lg-3 col-md-6 order-lg-2 order-1 p-lg-0 mb-lg-0 mb-4">
+            <!-- item -->
+            <div class="item text-lg-left text-center hot">
+              <!-- item status -->
+              <div class="item-status d-flex align-items-center justify-content-center text-uppercase">
+                plan popular
+              </div>
+              <!-- item head -->
+              <div class="item-head">
+
+                <!-- name -->
+                <h5 class="name mb-2">VPS Hosting</h5>
+
+                <!-- subtitle -->
+                <p class="sub mb-4">Scalable and simple object</p>
+
+                <!-- price -->
+                <div class="price">
+                  <div class="d-flex align-items-start justify-content-lg-start justify-content-center">
+                    <!-- currency -->
+                    <div class="currency mr-1 align-self-start">$</div>
+                    <!-- count -->
+                    <div class="count">24.99</div>
+                    <!-- commnet -->
+                    <div class="comment ml-1 align-self-end">/monthly</div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- item body -->
+              <div class="item-body">
+                <ul class="list-unstyled mb-0">
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                </ul>
+              </div>
+              <!-- item footer -->
+              <div class="item-footer">
+                <a href="#" class="th-btn-fill-warning text-uppercase w-100">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!-- col -->
+          <div class="col-lg-3 col-md-6 order-3 p-lg-0 mb-md-0 mb-4">
+            <!-- item -->
+            <div class="item text-lg-left text-center">
+              <!-- item head -->
+              <div class="item-head">
+
+                <!-- name -->
+                <h5 class="name mb-2">VPS Hosting</h5>
+
+                <!-- subtitle -->
+                <p class="sub mb-4">Scalable and simple object</p>
+
+                <!-- price -->
+                <div class="price">
+                  <div class="d-flex align-items-start justify-content-lg-start justify-content-center">
+                    <!-- currency -->
+                    <div class="currency mr-1 align-self-start">$</div>
+                    <!-- count -->
+                    <div class="count">24.99</div>
+                    <!-- commnet -->
+                    <div class="comment ml-1 align-self-end">/monthly</div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- item body -->
+              <div class="item-body">
+                <ul class="list-unstyled mb-0">
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                </ul>
+              </div>
+              <!-- item footer -->
+              <div class="item-footer">
+                <a href="#" class="th-btn-fill-primary text-uppercase w-100">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!-- col -->
+          <div class="col-lg-3 col-md-6 order-4 p-lg-0 mb-0">
+            <!-- item -->
+            <div class="item text-lg-left text-center">
+              <!-- item head -->
+              <div class="item-head">
+
+                <!-- name -->
+                <h5 class="name mb-2">VPS Hosting</h5>
+
+                <!-- subtitle -->
+                <p class="sub mb-4">Scalable and simple object</p>
+
+                <!-- price -->
+                <div class="price">
+                  <div class="d-flex align-items-start justify-content-lg-start justify-content-center">
+                    <!-- currency -->
+                    <div class="currency mr-1 align-self-start">$</div>
+                    <!-- count -->
+                    <div class="count">24.99</div>
+                    <!-- commnet -->
+                    <div class="comment ml-1 align-self-end">/monthly</div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- item body -->
+              <div class="item-body">
+                <ul class="list-unstyled mb-0">
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                  <li><strong>50 GB</strong> Disk Space</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li><strong>5 GB</strong> RAM</li>
+                  <li><strong>4 CPU</strong> Cores</li>
+                  <li>Dedicated IP Address</li>
+                </ul>
+              </div>
+              <!-- item footer -->
+              <div class="item-footer">
+                <a href="#" class="th-btn-fill-primary text-uppercase w-100">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section wrapper -->
+      <div class="se-wrapper mt-xl">
+        <ul class="list-unstyled mb-0 d-flex align-items-center justify-content-center flex-wrap">
+          <li class="d-flex align-items-center">
+            <i class="fa fa-check d-flex align-items-center justify-content-center mr-3"></i>Backups diarios
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fa fa-check d-flex align-items-center justify-content-center mr-3"></i>Free white-glove migrations
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fa fa-check d-flex align-items-center justify-content-center mr-3"></i>Staging enviroments, ande more.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION II -->
+  <div class="se-ii py-80-50">
+    <div class="container">
+
+      <!-- title -->
+      <div class="title text-center">
+        <h6>Reviews</h6>
+        <h2>Nice stuff others have said about us</h2>
+        <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+      </div>
+
+      <!-- row -->
+      <div class="row child-mb-2">
+
+        <!-- col -->
+        <div class="col-md-6">
+          <!-- item -->
+          <div class="item">
+            <!-- review -->
+            <p class="review mb-4">“A lot of people use ad-blocking extensions in their browsers, but now Mega has gone one better, by building the functionality into the browser itself.”</p>
+            <!-- details -->
+            <div class="details d-flex align-items-center">
+              <img data-src="./assets/images/media/04.jpeg" class="img-fluid lazy mr-3" alt="image">
+              <div>
+                <!-- name -->
+                <h6 class="name mb-0 text-uppercase">Murray Nguyen</h6>
+                <p class="mb-0">March 10,2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col -->
+        <div class="col-md-6">
+          <!-- item -->
+          <div class="item">
+            <!-- review -->
+            <p class="review mb-4">“Mega which seems determined to pack generations worth of improvements into a few short months, boasts yet another reason for you to switch browsers: a “low-power mode.”</p>
+            <!-- details -->
+            <div class="details d-flex align-items-center">
+              <img data-src="./assets/images/media/05.jpeg" class="img-fluid lazy mr-3" alt="image">
+              <div>
+                <!-- name -->
+                <h6 class="name mb-0 text-uppercase">Allen Lewis</h6>
+                <p class="mb-0">January 20,2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col -->
+        <div class="col-md-6">
+          <!-- item -->
+          <div class="item">
+            <!-- review -->
+            <p class="review mb-4">“There are lots of sync tools out there to move content between desktop and phone, but I have not found another that's as simple and easy to use as Mega's Flow.”</p>
+            <!-- details -->
+            <div class="details d-flex align-items-center">
+              <img data-src="./assets/images/media/06.jpeg" class="img-fluid lazy mr-3" alt="image">
+              <div>
+                <!-- name -->
+                <h6 class="name mb-0 text-uppercase">Taylor Vasquez</h6>
+                <p class="mb-0">August 16,2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col -->
+        <div class="col-md-6">
+          <!-- item -->
+          <div class="item">
+            <!-- review -->
+            <p class="review mb-4">“Mega is still the minnow of the browser world, but it could be about to have an outsized impact.”</p>
+            <!-- details -->
+            <div class="details d-flex align-items-center">
+              <img data-src="./assets/images/media/03.jpeg" class="img-fluid lazy mr-3" alt="image">
+              <div>
+                <!-- name -->
+                <h6 class="name mb-0 text-uppercase">Garcia Brooks</h6>
+                <p class="mb-0">December 22,2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION III -->
+  <div class="se-iii py-80-50 bg-2">
+    <div class="container">
+      <!-- title -->
+      <div class="title text-center">
+        <h6>Mega's Partners</h6>
+        <h2>Have trusted us</h2>
+        <p>Leave your system management to the experts so that you can focus your energy on what you do best.</p>
+      </div>
+      <!-- row & images row-->
+      <div class="row align-items-center justify-content-center images-row text-center">
+        <!-- col -->
+        <div class="col-md col-4">
+          <img data-src="./assets/images/media/08.png" class="img-fluid lazy" alt="logo">
+        </div>
+        <!-- col -->
+        <div class="col-md col-4">
+          <img data-src="./assets/images/media/09.png" class="img-fluid lazy" alt="logo">
+        </div>
+        <!-- col -->
+        <div class="col-md col-4">
+          <img data-src="./assets/images/media/010.png" class="img-fluid lazy" alt="logo">
+        </div>
+        <!-- col -->
+        <div class="col-md col-4">
+          <img data-src="./assets/images/media/011.png" class="img-fluid lazy" alt="logo">
+        </div>
+        <!-- col -->
+        <div class="col-md col-4">
+          <img data-src="./assets/images/media/012.png" class="img-fluid lazy" alt="logo">
+        </div>
+      </div>
+      <!-- row & blocks row -->
+      <div class="row blocks-row child-mb-2">
+        <!-- col -->
+        <div class="col-lg-4 col-md-6">
+          <!-- item -->
+          <div class="item position-relative text-center">
+            <h5 class="mb-3">DNS management</h5>
+            <p class="mb-0">You're free to focus on growing your business, let us handle your site, Always running, monitored, and scalimg on-demand.</p>
+          </div>
+        </div>
+        <!-- col -->
+        <div class="col-lg-4 col-md-6">
+          <!-- item -->
+          <div class="item position-relative text-center">
+            <h5 class="mb-3">Priority Support</h5>
+            <p class="mb-0">You're free to focus on growing your business, let us handle your site, Always running, monitored, and scalimg on-demand.</p>
+          </div>
+        </div>
+        <!-- col -->
+        <div class="col-lg-4 col-12">
+          <!-- item -->
+          <div class="item position-relative text-center">
+            <h5 class="mb-3">Upgrade Management</h5>
+            <p class="mb-0">You're free to focus on growing your business, let us handle your site, Always running, monitored, and scalimg on-demand.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION IV -->
+  <div class="se-iv py-80">
+    <div class="container">
+      <!-- row -->
+      <div class="row align-items-center">
+        <!-- col -->
+        <div class="col-md-5 mb-md-0 mb-5">
+          <img data-src="./assets/images/media/02.png" class="img-fluid lazy" alt="image">
+        </div>
+        <!-- col -->
+        <div class="col-lg-6 col-md-7 ml-auto">
+          <!-- title -->
+          <div class="title big-title text-md-left text-center mb-0">
+            <h6>Mega formus</h6>
+            <h2>Join Mega's<br>community</h2>
+            <p>We're always happy when you enjoy our products and we love to get feedback on them. With your help we can develop and adjust them to your needs and expectations.</p>
+            <!-- buttons -->
+            <div class="buttons mt-md">
+              <a href="#" class="th-btn-fill-primary text-uppercase">Join us now<i class="fa fa-long-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION V -->
+  <div class="se-v text-center py-80 bg-2">
+    <div class="container">
+      <h2 class="mb-4 mx-auto">Please don't hesitate to contact us if you have any questions</h2>
+      <a href="#" class="th-btn-fill-primary text-uppercase">contact us</a>
+    </div>
+  </div>
+
+  <!-- SECTION VI -->
+  <div class="se-vi py-80">
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-lg-5 col-md-6 mb-md-0 mb-5">
+          <!-- title -->
+          <h3 class="title position-relative mb-4">Latest Announcements</h3>
+          <!-- list -->
+          <ul class="list list-unstyled mb-0">
+            <!-- item -->
+            <li class="item">
+              <!-- item title -->
+              <a href="#" class="item-title d-flex mb-3">Aspnet Hosting Ltd Announcement</a>
+              <p class="mb-3">It’s hard to believe anyone would want to harm your website, but they do. Thankfully, our security team is on the job 24/7 to meticulously monitor, thwart suspicious activity and deflect DDoS attacks.</p>
+              <!-- date -->
+              <div class="date">06/6/2020</div>
+            </li>
+            <!-- item -->
+            <li class="item">
+              <!-- item title -->
+              <a href="#" class="item-title d-flex mb-3">Shared Hosting PHP Changes from March 2020</a>
+              <p class="mb-3">It’s hard to believe anyone would want to harm your website, but they do. Thankfully, our security team is on the job 24/7 to meticulously monitor.</p>
+              <!-- date -->
+              <div class="date">06/6/2020</div>
+            </li>
+            <!-- item -->
+            <li class="item">
+              <!-- item title -->
+              <a href="#" class="item-title d-flex mb-3">Hardware Issue With VPS Server</a>
+              <p class="mb-3">It’s hard to believe anyone would want to harm your website, but they do. Thankfully, thwart suspicious activity and deflect DDoS attacks.</p>
+              <!-- date -->
+              <div class="date">06/6/2020</div>
+            </li>
+          </ul>
+        </div>
+        <!-- col -->
+        <div class="col-lg-7 col-md-6">
+          <!-- title -->
+          <h3 class="title position-relative mb-4">About Company</h3>
+          <p class="sub mb-lg-4 mb-5">Mega is a leading web hosting solutions company. Since our founding in 2003, Mega has continually innovated new ways to deliver on our mission: to empower people to fully harness the web.</p>
+          <!-- row -->
+          <div class="row align-items-center">
+            <!-- col -->
+            <div class="col-lg-6 order-lg-1 order-2">
+              <p class="text mb-4">Mega was bootstrapped in 2004 and we’ve been on an epic ride ever since. We had a simple idea to let you create a website for free.<br>Whether you want to keep it classic with a .com or get creative with .app or .guru, there’s no better place to find the perfect online home for your business or idea.</p>
+              <p class="text mb-5">You don’t need to know how to code or design to build an amazing website. With Website Builder, we’ve done all the technical stuff for you. Just tell us your industry or idea and you’re halfway there (seriously).</p>
+              <a href="#" class="th-btn-fill-primary shadow-none">Read More</a>
+            </div>
+            <!-- col -->
+            <div class="col-lg-6 order-lg-2 order-1 mb-lg-0 mb-5">
+              <img data-src="./assets/images/media/013.svg" class="img-fluid lazy" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOGOS BAR -->
+  <div class="logos-bar bg-2">
+    <div class="container">
+      <!-- row -->
+      <div class="row justify-content-center">
+        <!-- col -->
+        <div class="col-md col-sm-3 col-4">
+          <img data-src="./assets/images/media/014.png" class="img-fluid lazy" alt="image">
+        </div>
+        <!-- col -->
+        <div class="col-md col-sm-3 col-4">
+          <img data-src="./assets/images/media/015.png" class="img-fluid lazy" alt="image">
+        </div>
+        <!-- col -->
+        <div class="col-md col-sm-3 col-4">
+          <img data-src="./assets/images/media/016.png" class="img-fluid lazy" alt="image">
+        </div>
+        <!-- col -->
+        <div class="col-md col-sm-3 col-4">
+          <img data-src="./assets/images/media/017.png" class="img-fluid lazy" alt="image">
+        </div>
+        <!-- col -->
+        <div class="col-md col-sm-3 col-4">
+          <img data-src="./assets/images/media/019.png" class="img-fluid lazy" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- links -->
+    <div class="links">
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-3">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">Hosting</li>
+              <li><a href="#" class="text-capitalize">shared hosting</a></li>
+              <li><a href="#" class="text-capitalize">cloud hosting</a></li>
+              <li><a href="#" class="text-capitalize">VPS hosting</a></li>
+              <li><a href="#" class="text-capitalize">dedicated hosting</a></li>
+            </ul>
+          </div>
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-3">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">Company</li>
+              <li><a href="#" class="text-capitalize">about us</a></li>
+              <li><a href="#" class="text-capitalize">terms</a></li>
+              <li><a href="#" class="text-capitalize">privacy</a></li>
+            </ul>
+          </div>
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-3">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">useful links</li>
+              <li><a href="#" class="text-capitalize">your account</a></li>
+              <li><a href="#" class="text-capitalize">documentation</a></li>
+              <li><a href="#" class="text-capitalize">ICANN Confirmation</a></li>
+              <li><a href="#" class="text-capitalize">Cookies</a></li>
+            </ul>
+          </div>
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-md-3">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">Information</li>
+              <li><a href="#" class="text-capitalize">affiliate program</a></li>
+              <li><a href="#" class="text-capitalize">payment method</a></li>
+              <li><a href="#" class="text-capitalize">compare</a></li>
+              <li><a href="#" class="text-capitalize">reviews</a></li>
+            </ul>
+          </div>
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-md-3">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">Domains</li>
+              <li><a href="#" class="text-capitalize">domain checker</a></li>
+              <li><a href="#" class="text-capitalize">domain transfer</a></li>
+              <li><a href="#" class="text-capitalize">free domain</a></li>
+              <li><a href="#" class="text-capitalize">buy domain</a></li>
+            </ul>
+          </div>
+          <!-- col -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-0">
+            <ul class="list-unstyled mb-0">
+              <li class="title text-uppercase mb-3">Why Mega?</li>
+              <li><a href="#" class="text-capitalize">Top 5 Reasons</a></li>
+              <li><a href="#" class="text-capitalize">Customer Testimonials</a></li>
+              <li><a href="#" class="text-capitalize">Service Guarantee</a></li>
+              <li><a href="#" class="text-capitalize">Awards</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyrights -->
+    <div class="c-r text-left">
+      <div class="container">
+        <p class="mb-0">© 2020 Mega Pty Ltd. Trademarks and brands are the property of their respective owners.</p>
+        <p class="comment mb-0">Developed By
+          <a href="http://bit.ly/niftytheme" target="_blank">Nifty Theme</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <!-- <script src="./assets/js/vendors/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendors/popper.js"></script>
+  <script src="./assets/js/vendors/bootstrap.min.js"></script>
+  <script src="./assets/js/vendors/lazyload.min.js"></script>
+  <script src="./assets/js/theme/script.js"></script> -->
+
+  <!-- MIN SCRIPT -->
+  <script src="./assets/js/theme/theme-vendors.min.js"></script>
+</body>
+</html>
