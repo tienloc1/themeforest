@@ -1,7 +1,7 @@
 ### All the demo below
 
 [Host Blue Demo](https://tienloc1.github.io/themeforest/virtual-rocket/vrocket/templates/hostblue)
-s
+
 [Hoster Demo](https://tienloc1.github.io/themeforest/virtual-rocket/vrocket/templates/hoster)
 
 [Hostfly Demo](https://tienloc1.github.io/themeforest/virtual-rocket/vrocket/templates/hostfly)
